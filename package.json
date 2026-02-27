@@ -1,0 +1,22 @@
+{
+  "name": "27_open-claw-bot",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": ""
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@google/genai": "^1.43.0",
+    "express": "^5.2.1",
+    "openai": "^6.25.0"
+  }
+}
